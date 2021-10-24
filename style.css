@@ -9,20 +9,29 @@ html{
   min-height: 100%;
 }
 body{
+  font-size: 28px;
+
     min-height: 100%;
-  background-image: url("https://cdnn21.img.ria.ru/images/155765/04/1557650483_0:105:2000:1230_1920x0_80_0_0_032afab1a2f1ac4ff00057036983cbbf.jpg");
+
+  background-image: url("https://i.ytimg.com/vi/OfhcDIlOOH8/maxresdefault.jpg");
+
   background-repeat: no-repeat;
-  background-size: color;
+  background-size: cover;
   background-position: center bottom;
 }
 
 .item{
-  width: 300px;
-  height: 300px;
+  width: 800px;
+  height: 800px;
   overflow: hidden;
   border-radius: 50%;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .item1{
   background-color: rgba(34, 3, 54, 0.705);
+}
+.item h1{
+  padding: 40% 15px 10% 15px;
 }
